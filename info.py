@@ -22,9 +22,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TheBlackBot')
-API_ID = int(environ.get('API_ID', '29450452'))
-API_HASH = environ.get('API_HASH', '54759945ff88b52777eec9a455944d31')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '23990433'))
+API_HASH = environ.get('API_HASH', 'e6c4b6ee1933711bc4da9d7d17e1eb20')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6300056570:AAG4QeGKs1adqmnSPLr-6GdTtoDHoqJJ1Q0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
