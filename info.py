@@ -138,10 +138,16 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
+    APP_NAME = str(getenv('APP_NAME'))
+
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://theblackxyz-bot-theblackxyz9021-e0a50d50.koyeb.app/") # Fill env at deoplyment time Stream Mode Is True else avoide 
-
+HAS_SSL=bool(getenv('HAS_SSL',False))
+if HAS_SSL:
+    URL = "https://{}/".format(FQDN)
+else:
+    URL = "https://{}/".format(FQDN)
+    
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
 
