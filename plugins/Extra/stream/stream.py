@@ -44,7 +44,7 @@ async def stream_start(client, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download), # we download Link
                                                 InlineKeyboardButton("🖥️ Watch online 🖥️", url=stream),
-                                                InlineKeyboardButton('❤️Channel🙂',url="https://t.me/TheBlackXYZBotz")]])# web stream Link
+                                                InlineKeyboardButton('❤️Channel🙂',url="https://t.me/SK_MoviesOffl")]])# web stream Link
         )
         rm=InlineKeyboardMarkup(
             [
