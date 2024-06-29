@@ -57,11 +57,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'blackcollection')
 
 # Channel Links 😞
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TheBlackXYZ_Movie_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TheBlackXYZ')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TheBlackXYZ/155')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/TheBlackXYZ/155')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_Black_XYZ_SupportChat') # Support Chat Links Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SK_MoviesOffl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SK_MoviesOffl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_sk_dalink/5')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_download_sk_dalink/5')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/SK_MoviesOffl') # Support Chat Links Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
