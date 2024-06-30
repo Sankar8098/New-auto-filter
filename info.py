@@ -53,8 +53,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information database 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://autofilter:autofilter@autofilter.tponhhw.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "RIONETWORKS")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "SK")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Collition')
 
 # Channel Links 😞
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SK_MoviesOffl')
